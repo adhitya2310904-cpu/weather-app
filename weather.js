@@ -17,7 +17,7 @@ async function getWeather() {
 
     document.getElementById("weatherResult").innerHTML = `
             <h2>${data.name}</h2>
-            <p>Temperature: ${data.main.temp}°C</p>
+            <p>Temperature: ${data.main.temp*0.1}°C</p>
             <p>Humidity: ${data.main.humidity}%</p>
             <p>Weather: ${data.weather[0].description}</p>
         `;

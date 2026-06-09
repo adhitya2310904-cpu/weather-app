@@ -26,6 +26,6 @@ button{
     cursor:pointer;
 }
 
-#weatherResult{
+.result{
     margin-top:20px;
 }
